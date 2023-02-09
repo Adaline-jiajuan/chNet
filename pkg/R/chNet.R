@@ -81,7 +81,7 @@ chNet <- function(X, group,subsampling = FALSE, R= 20, lambar, parallel = FALSE,
       weight.temp = weight.temp + lams.edge.weight
     }
 
-    res.weight = weight.temp/sub_iter
+    res.weight = weight.temp/R
 
 
   }else{
