@@ -18,7 +18,7 @@ install.packages("devtools")
 library("devtools") 
 
 # Step 3. Install the chNet package from GitHub.
-install_github("Zhangxf-ccnu/chNet", subdir="pkg") 
+install_github("TJJjiajuan/chNet", subdir="pkg") 
 
 
 Useage
